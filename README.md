@@ -1,3 +1,3 @@
-# Zoom
+# Realtime video chatting application.
 
-### Zoom Clone using Nodejs, Socket.io.
+### Realtime video chatting application using Nodejs, Socket.io, WebRTC, etc
