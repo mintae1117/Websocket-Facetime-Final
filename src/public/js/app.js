@@ -44,5 +44,3 @@ function handleCameraClick() {
 
 muteBtn.addEventListener("click", handleMuteClick);
 cameraBtn.addEventListener("click", handleCameraClick);
-  
-  

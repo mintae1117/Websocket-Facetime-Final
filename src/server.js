@@ -4,6 +4,7 @@ import http from "http";
 import { Server } from "socket.io";
 
 
+
 const __dirname = path.resolve();
 
 const app = express();
@@ -17,6 +18,8 @@ app.get("/*", (_, res) => res.redirect("/"));
 
 const httpServer = http.createServer(app);
 const wsServer = new Server(httpServer);
+//const wsServer = SocketIO(httpServer);
+
 
 
 const handleListen = () => console.log(`Listening on http://localhost:3000`);
