@@ -4,7 +4,6 @@ import http from "http";
 import { Server } from "socket.io";
 
 
-
 const __dirname = path.resolve();
 
 const app = express();
